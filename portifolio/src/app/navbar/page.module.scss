@@ -1,0 +1,39 @@
+.navbar{
+    margin: 0 15px;
+    color: #000000;
+    text-decoration: none;
+    &:hover{      
+        text-decoration: none;
+    }
+
+    
+
+}
+.link{
+    margin: 0 15px;
+    color: #ff0000;
+    text-decoration: none;
+    &:hover{      
+        color: #fcfcfc;
+        background-color: blue;
+        transition: all 0.5s;
+        border-radius: 3px;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+}
+.contact{
+    margin: 0 15px;
+    color: #ff0000;
+    text-decoration: none;
+    &:hover{      
+        color: #fcfcfc;
+        background-color: blue;
+        transition: all 0.5s;
+        border-radius: 3px;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+}
