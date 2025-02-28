@@ -1,2 +1,0 @@
-# genilson.io
-Meu portifolio
