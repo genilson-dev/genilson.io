@@ -1,0 +1,16 @@
+.vscode
+node_modules/
+cypress/reports
+cypress/screenshots
+.DS_Store
+README.md
+trybe.yml
+README.md
+.trybe/
+exemplo.png
+.stylelintrc.json
+cypress.json
+reporter.json
+cypress/
+cypress.config.js
+cypress/support

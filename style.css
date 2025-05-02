@@ -1,0 +1,155 @@
+/* body {
+  background: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  margin: 10px;
+  padding: 10px;
+  background: green;
+  border: solid 1px black;
+  font-size: 10px;
+  size: 33px;
+  color: white;
+  line-height: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+}
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+} */
+
+/* Resetando estilos padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#titulo {
+  font-size: 24px;
+}
+
+/* Seção de perfil */
+#perfil {
+  text-align: center;
+  padding: 20px;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+/* Estilizando as listas */
+section ol,
+section ul {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0073e6;
+}
+
+/* Links de navegação */
+nav {
+  text-align: center;
+  margin: 20px;
+}
+
+nav a {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #005bb5;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0073e6;
+  color: white;
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Fixar o cabeçalho no topo */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  z-index: 1000;
+}
+
+/* Ajustar o corpo para não ficar sobre o cabeçalho */
+body {
+  padding-top: 60px;
+}
+
+/* Fixar o rodapé na parte inferior */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+/* Ajustar o conteúdo para não ficar sobre o rodapé */
+main {
+  margin-bottom: 80px;
+}
